@@ -1,0 +1,140 @@
+.voiceControle {
+    background-color: #181818;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        background-image: url('../images/content/Vector.png');
+
+
+
+    }
+
+    &__descritpion {
+        max-width: 474px;
+        color: $main-color-next;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    &__title {
+
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 90%;
+        margin-top: 48px;
+    }
+
+
+    &__columns-text {}
+
+    &__paragraph {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 170%;
+
+    }
+
+    &__paragraph:nth-last-child(-n+2) {
+        padding-top: 20px;
+    }
+
+    &__blockText {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__subtitle {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44.7911px;
+        line-height: 90%;
+        padding-top: 20px;
+
+    }
+
+    &__span-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 90%;
+        color: $main-color-next;
+        padding-top: 20px;
+    }
+
+    &__span-text-end {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44.7911px;
+        line-height: 90%;
+        padding-top: 10px;
+    }
+
+    &__image-container {
+        display: flex;
+    }
+
+    &__wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__image {
+        max-width: 435px;
+        max-height: 790px;
+        animation: loop 3s ease-in-out infinite;
+    }
+
+    @keyframes loop {
+        0% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-15%);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    &__image-shadow {
+        background-color: #000;
+        border-radius: 50%;
+        min-width: 193px;
+        min-height: 60px;
+        animation: rotate 4s linear 1s 2 alternate both;
+    }
+
+
+    @keyframes rotate {
+        0% {
+            transform: scale(.5);
+
+        }
+
+        50% {
+            transform: scale(.7);
+        }
+
+        100% {
+            transform: scale(1.0);
+        }
+    }
+
+    &__taskboard {
+        max-width: 842px;
+        max-height: 867px;
+    }
+
+
+
+}

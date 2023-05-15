@@ -1,0 +1,176 @@
+
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+
+    }
+
+    .ergonomics {
+        &__container {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        &__buttons {
+            display: flex;
+            top: 1222px;
+            left: 101px;
+        }
+
+    }
+
+    .voiceControle {
+        &__container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__taskboard {
+            max-width: 422px;
+            max-height: 411px;
+        }
+
+        &__image-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__image {
+            width: 289px;
+            height: 756px;
+        }
+
+        &__descritpion {}
+    }
+}
+
+
+
+@media screen and (max-width: 426px) {
+
+    .ergonomics {
+
+
+        &__container {
+            padding: 0 10px;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            width: 100%;
+        }
+
+        &__title {
+            font-family: 'Bebas Neue';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 100%;
+
+            padding: 0;
+        }
+
+        &__paragraph {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 170%;
+        }
+
+
+
+        &__image {
+            width: 332.72px;
+            height: 266.95px;
+        }
+
+        &__buttons {
+            display: flex;
+            top: 777px;
+            left: 90px;
+        }
+
+        &__circle-click-up {
+            margin-right: 13px;
+        }
+
+    }
+
+    .voiceControle {
+        &__container {
+            padding: 0 10px;
+            width: 100%;
+        }
+
+        &__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 100%;
+        }
+
+        &__taskboard {
+            max-width: 300px;
+
+        }
+
+        &__image-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__image {
+            width: 269px;
+            height: 500px;
+        }
+
+        &__image-shadow {
+            width: 193.78px;
+            height: 61.14px;
+        }
+
+        &__paragraph {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 170%;
+        }
+
+        &__blockText {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__subtitle {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 38.6546px;
+            line-height: 90%;
+
+
+        }
+
+        &__span-text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 38.6546px;
+            line-height: 90%;
+            padding-top: 10px;
+
+        }
+    }
+
+    .btn {
+        width: 61.15px;
+        height: 61.15px;
+        font-size: 15px;
+    }
+
+
+}

@@ -13,6 +13,7 @@
 
 .container {
     font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     width: 100%;
     max-width: 1920px;
@@ -21,8 +22,12 @@
 
 }
 
-@import '../blocks/ergonomics';
-@import '../blocks/buttons';
+@import '../scss/ergonomics';
+@import '../scss/buttons';
+@import '../scss/voiceControl';
+@import '../scss/media';
+
+
 
 
 
